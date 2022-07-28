@@ -1,0 +1,39 @@
+body {
+    background-color: #313131;
+    margin: 0px;
+    color: whitesmoke;
+    font-family: 'minecraftregular-bmg3';
+    /* font-family: 'sweet_sensations_personal_uRg'; */
+    text-transform: uppercase;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+a:hover {
+    color: #35c2f2;
+}
+a:focus {
+    text-decoration: none;
+}
+a > p {
+    display: none;
+}
+.page-content {
+    font-family: 'minecraftregular-bmg3';
+}
+
+@font-face {
+    font-family: 'sweet_sensations_personal_uRg';
+    src: url('../misc/fonts/sweet_sensations_personal_use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'minecraftregular-bmg3';
+    src: url('../misc/fonts/minecraftregular-bmg3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
