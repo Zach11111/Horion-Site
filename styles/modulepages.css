@@ -1,0 +1,46 @@
+/* module type */
+h1 {
+    padding: 30px 0px 20px 0px;
+    font-size: 100px;
+    margin: 0px;
+    text-align: center;
+}
+
+/* warnings */
+.warnings > .title {
+    color: red;
+    font-size: 50px;
+}
+.warnings > .title .warning {
+    text-decoration: underline;
+}
+.warnings > .title .nowarnings {
+    display: none;
+}
+.warnings > .title.nowarnings .nowarnings{
+    color: green;
+    text-decoration: underline;
+    display: block;
+}
+.warnings > .title.nowarnings .warning{
+    display: none;
+}
+.warnings > .title > .desc {
+    font-size: 40px;
+}
+.warnings > .title > .desc ul {
+    margin: 20px 0px;
+}
+.warnings > .title.nowarnings .desc {
+    display: none;
+}
+
+/* module desc */ 
+.page-content > .desc {
+    font-size: 30px;
+    margin-top: 30px;
+}
+.howto > .title {
+    font-size: 45px;
+    padding: 30px 0px 10px 0px;
+}
