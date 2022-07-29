@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../../../styles/common.css">
         <link rel="stylesheet" href="../../../styles/navbar.css">
         <link rel="stylesheet" href="../../../styles/modulepages.css">
+        <script src="https://kit.fontawesome.com/df2da9a1f0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="navbar">
@@ -26,30 +27,36 @@
             </div>
         </div>
         <div class="page-content">
-            <h1>name</h1>
+            <h1>autopot</h1>
             <div class="warnings">
-                <div class="title nowarnings">
+                <div class="title">
                     <span class="warning">warnings:</span>
                     <span class="nowarnings">no issues</span>
                     <div class="desc">
                         <ul>
-                            <li>warning</li>
-                            <li>warning</li>
-                            <li>warning</li>
-                            <li>warning</li>
+                            <li>can also heal the enemy, if not undead, when triggered</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="desc">module description</div>
+            <div class="desc">automatically throws instant health potions when at or below the specified health in settings<br>the pitch is for how high or low to throw the splash potion</div>
             <div class="settings">
                 <ul>
-                    <li>toggle</li>
                     <li>
-                        setting
+                        health
                         <ul style="list-style-type: square;">
-                            <li>
-                                settings
+                            <li class="range">
+                                <span class="value1">1</span>
+                                <span class="value2">20</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        pitch
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">-90</span>
+                                <span class="value2">90</span>
                             </li>
                         </ul>
                     </li>
@@ -57,7 +64,7 @@
             </div>
             <div class="howto">
                 <div class="title">how to enable</div>
-                <div class="enable">how to enable</div>
+                <div class="enable">.toggle autopot</div>
             </div>
         </div>
     </body>

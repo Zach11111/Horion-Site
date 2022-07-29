@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../../../styles/common.css">
         <link rel="stylesheet" href="../../../styles/navbar.css">
         <link rel="stylesheet" href="../../../styles/modulepages.css">
+        <script src="https://kit.fontawesome.com/df2da9a1f0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="navbar">
@@ -26,7 +27,7 @@
             </div>
         </div>
         <div class="page-content">
-            <h1>name</h1>
+            <h1>autoclicker</h1>
             <div class="warnings">
                 <div class="title nowarnings">
                     <span class="warning">warnings:</span>
@@ -41,15 +42,57 @@
                     </div>
                 </div>
             </div>
-            <div class="desc">module description</div>
+            <div class="desc">clicks automatically with a delay of a couple milliseconds to 20 ticks, or 1 second<br>has options to only work when right clicking, holding click, or when holding weapons, and also has options for a random delay and jitter</div>
             <div class="settings">
                 <ul>
-                    <li>toggle</li>
+                    <li class="toggle">only weapons</li>
+                    <li class="toggle">rightclick</li>
+                    <li class="toggle">break blocks</li>
+                    <li>
+                        delay
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">0</span>
+                                <span class="value2">20</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="toggle">hold</li>
+                    <li class="toggle">jitter</li>
+                    <li>
+                        yjitter
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">0</span>
+                                <span class="value2">15</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        xjitter
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">0</span>
+                                <span class="value2">15</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="toggle">randomdelay</li>
                     <li>
                         setting
                         <ul style="list-style-type: square;">
-                            <li>
-                                settings
+                            <li class="range">
+                                <span class="value1">1</span>
+                                <span class="value2">20</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        setting
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">1</span>
+                                <span class="value2">20</span>
                             </li>
                         </ul>
                     </li>
@@ -57,7 +100,7 @@
             </div>
             <div class="howto">
                 <div class="title">how to enable</div>
-                <div class="enable">how to enable</div>
+                <div class="enable">.toggle autoclicker</div>
             </div>
         </div>
     </body>

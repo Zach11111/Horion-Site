@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="../../../styles/common.css">
         <link rel="stylesheet" href="../../../styles/navbar.css">
         <link rel="stylesheet" href="../../../styles/modulepages.css">
+        <script src="https://kit.fontawesome.com/df2da9a1f0.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="navbar">
@@ -26,7 +27,7 @@
             </div>
         </div>
         <div class="page-content">
-            <h1>name</h1>
+            <h1>killaura</h1>
             <div class="warnings">
                 <div class="title nowarnings">
                     <span class="warning">warnings:</span>
@@ -41,23 +42,80 @@
                     </div>
                 </div>
             </div>
-            <div class="desc">module description</div>
+            <div class="desc">automatically hits players within the range specified in settings<br>has options to hit multiple people or one, disable on death, show your hit range, and to check if the player you may hit is on your team list<div>
             <div class="settings">
                 <ul>
-                    <li>toggle</li>
                     <li>
-                        setting
+                        rotations
                         <ul style="list-style-type: square;">
-                            <li>
-                                settings
+                            <li class="toggle">
+                                <span class="toggleoption">none</span>
+                            </li>
+                            <li class="toggle">
+                                <span class="toggleoption">silent</span>
+                            </li>
+                            <li class="toggle">
+                                <span class="toggleoption">client</span>
+                            </li>
+                            <li class="toggle">
+                                <span class="toggleoption">actual</span>
                             </li>
                         </ul>
                     </li>
+                    <li>
+                        rotation type
+                        <ul style="list-style-type: square;">
+                            <li class="toggle">
+                                <span class="toggleoption">normal</span>
+                            </li>
+                            <li class="toggle">
+                                <span class="toggleoption">predict</span>
+                            </li>
+                            <li class="toggle">
+                                <span class="toggleoption">average</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        hit type
+                        <ul style="list-style-type: square;">
+                            <li class="toggle">
+                                <span class="toggleoption">multi</span>
+                            </li>
+                            <li class="toggle">
+                                <span class="toggleoption">single</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        range
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">2</span>
+                                <span class="value2">10</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        cps
+                        <ul style="list-style-type: square;">
+                            <li class="range">
+                                <span class="value1">1</span>
+                                <span class="value2">20</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="toggle">auto weapon</li>
+                    <li class="toggle">mob aura</li>
+                    <li class="toggle">teamcheck</li>
+                    <li class="toggle">death disable</li>
+                    <li class="toggle">visual range</li>
+                    <li>visual range color</li>
                 </ul>
             </div>
             <div class="howto">
                 <div class="title">how to enable</div>
-                <div class="enable">how to enable</div>
+                <div class="enable">.toggle killaura</div>
             </div>
         </div>
     </body>
