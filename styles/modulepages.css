@@ -40,51 +40,7 @@ h1 {
     font-size: 30px;
     margin-top: 30px;
 }
-.dropdowntext {
-    color: #6dc96d;
-}
-.dropdowncontent {
-    transform: translate(-1000px, 75%);
-    position: absolute;
-    color: transparent;
-    font-size: 0px;
-    max-width: 50px;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 1s;
-}
-.dropdowntext:hover .dropdowncontent {
-    transform: translate(-75%, 75%);
-    background-color: #121212;
-    max-width: 506px;
-    font-size: 17px;
-    color: #97da97;
-}
-.dropdownspace {
-    color: transparent;
-    position: absolute;
-    transform: translate(-10px, -100%);
-    width: 100%;
-    height: 50%;
-    z-index: -1;
-}
-.dropdowntriangle {
-    text-transform: none;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    transform: translate(-7px, -75%) rotate(45deg);
-    z-index: -1;
-    background-color: transparent;
-    border-radius: 3px;
-    transition: 1s;
-}
-.dropdowntext:hover .dropdowntriangle {
-    transform: translate(900%, -75%) rotate(45deg);
-    background-color: #121212;
-    width: 27px;
-    height: 27px;
-}
+
 /* module settings */
 .toggle::before {
     font-family: "fontawesome";
