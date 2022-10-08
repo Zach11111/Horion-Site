@@ -39,6 +39,9 @@ a > p {
     border-radius: 10px;
     transition: 1s;
 }
+.dropdowntext:hover {
+    cursor: help;
+}
 .dropdowntext:hover .dropdowncontent {
     transform: translate(-75%, 90%);
     background-color: #121212;
