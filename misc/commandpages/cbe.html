@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset=UTF-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Horion Help</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="../../../styles/common.css">
+        <link rel="stylesheet" href="../../../styles/navbar.css">
+        <link rel="stylesheet" href="../../../styles/commandpages.css">
+        <script src="https://kit.fontawesome.com/df2da9a1f0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo">
+                <a href="https://horion.download">
+                    <img id="smallLogo" src="../../../images/horion-icon.png" alt="">
+                    <img id="largeLogo" src="../../../images/horion-banner.png" alt="">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="../../../index.html">Home</a>
+                <a href="../../../help.html" id="page">Help</a>
+                <a href="../../../about.html">About</a>
+                <a href="../../../dlls.html">DLLs</a>
+            </div>
+        </div>
+        <div class="page-content">
+            <h1>command block exploit</h1>
+            <div class="warnings">
+                <div class="title">
+                    <span class="warning">warnings:</span>
+                    <span class="nowarnings">no issues</span>
+                    <div class="desc">
+                        <ul>
+                            <li>operators on the server will see all commands ran</li>
+                            <li>to prevent this, set gamerules <b>sendcommandfeedback</b> and <b>commandblockoutput</b> to false</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="desc">gives you a beehive, movingblock, or bucket that spawns either a minecart of npcs with the command you provide in the .cbe arguments. beehive gives you a simple beehive, movingblock gives you a block with a strange texture that can have up to 2 blocks as textures and act like another block, and bucket gives you an axolotl bucket with the command you gave.</div>
+            <div class="usage">
+                <div class="title">usage</div>
+                <div class="offset">.cbe &lt;beehive/movingblock/bucket&gt; &lt;minecart/npc&gt; &lt;command&gt;</div>
+            </div>
+            <div class="example">
+                <div class="title">examples</div>
+                <div class="offset">.cbe beehive minecart say hi</div>
+                <div class="offset">.cbe beehive minecart kill @e[type=!command_block_minecart]</div>
+            </div>
+            <div class="aliases">
+                <div class="title">aliases</div>
+                <ul>
+                    <li>.commandblockexploit</li>
+                    <li>.cbe</li>
+                    <li>.cbe &lt;bh/mb/bucket&gt;</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
