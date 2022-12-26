@@ -92,16 +92,23 @@
     border-radius: 0px 0px 20px 20px;
     padding: 20px 0px 10px 0px;
 }
-/* .modulecontent a {
-    display: flex;
-    flex-direction: column;
-    font-size: 0px;
-    text-align: center;
-    transform: translateX(2px);
+
+/* keybinds */
+.moduletitle > .title {
+    margin-bottom: 0px;
 }
-.modulecontent:hover a {
+.moduletitle .description {
+    margin: 10px 20px;
+}
+.keybind {
+    margin-left: 50px;
+}
+.keybind > .keymodule {
+    font-weight: bold;
+}
+.keybind > .keymodule::after {
+    content: ":";
+}
+.keybind > .key {
     font-size: 25px;
 }
-.modulecontent a:hover {
-    letter-spacing: 2px;
-} */
